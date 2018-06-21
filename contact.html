@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Zone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"> </head>
+
+<body>
+
+
+
+    <div id="myNav" class="overlay container">
+        <div class="container">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">WEBSITENAME</a>
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right navbar-header">
+                        <li>
+
+                            <a onclick="closeNav()">
+                                <span class="glyphicon glyphicon-remove"></span>
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+        <!--        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>-->
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+        </div>
+    </div>
+    <div class="search" id="search">
+        <div class="search-content">
+            <input type="text" placeholder="Search here.." name="search">
+
+            <a class="pull-right" onclick="closeSearch()">
+                <span class="glyphicon glyphicon-remove"></span>
+
+            </a>
+        </div>
+    </div>
+    <!--     ----->
+
+    <div class="container">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">WEBSITENAME</a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right navbar-header">
+                    <li><a onclick="openSearch()"><span class="glyphicon glyphicon-search"></span></a></li>
+                    <li>
+
+                        <a onclick="openNav()">
+                            <span class="glyphicon glyphicon-menu-hamburger"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class=" hamb">
+
+                <!--                <a onclick="openNav()">-->
+                <button data-toggle="collapse" data-target="#navres">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span></button>
+
+            </div>
+        </nav>
+    </div>
+
+
+    <div id="navres" class="collapse">
+        <ul class="nav nav-stacked">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blogs</a></li>
+        </ul>
+
+    </div>
+    <div class="about img pic2">
+        <p>Contact</p>
+    </div>
+    <!--..-->
+    <div class="container">
+        <div class="row short-row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <p>This is a contact page with some basic contact information and a contact form.</p>
+                <div class="form">
+
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="website">Website</label>
+                            <input type="text" id="website">
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">Comment</label>
+                            <textarea id="comment"></textarea>
+                        </div>
+                        <button type="submit" class="btn1 ">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <input type="text" placeholder="Search..">
+
+                <span>SIDEBAR TEXT WIDGET</span>
+                <p>This is a text widget. The Text Widget allows you to add text or HTML to your sidebar. You can use a text widget to display text, links, images, HTML, or a combination of these. Edit them in the Widget section of the Customizer.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--    ----->
+    <footer>
+        <div class="container ">
+            <div class="row text-cen">
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <ul class="location ">
+                        <span>Our location</span>
+
+                        <iframe width="100% " height="230 " frameborder="0 " scrolling="no " marginheight="0 " marginwidth="0 " src=" https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9932.139537090903!2d-0.12463!3d51.512576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604cc8b5f9799%3A0x74c809e1d8d585e0!2s1-4+Langley+Ct%2C+London+WC2E+9JY%2C+UK!5e0!3m2!1sen!2sus!4v1507909652156 "> </iframe>
+
+                        <li>
+                            <p style="color:white; ">1-4 Langley Court </p>
+                            <p style="color:white; ">London WC2E 9JY</p>
+                            <p style="color:white; ">United Kingdom </p>
+                        </li>
+
+                        <li>
+                            <p>+4420 7430 2696</p>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <ul class="text ">
+                        <span>Texts</span>
+                        <p>
+                            This is a text widget. The Text Widget allows you to add text or HTML to your sidebar. You can use a text widget to display text, links, images, HTML, or a combination of these. Edit them in the Widget section of the Customizer.
+                        </p>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <ul class="menus ">
+                        <span>Menu</span>
+                        <li style="padding:0 0 12px 0; ">
+                            <a href="index.html ">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html ">About</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </footer>
+    <div class="main-foot ">
+        <div class="container ">
+            <p class="pull-left pl ">Coded with <span class="glyphicon glyphicon-heart ">
+                </span> by Neel | WEBSITENAME &copy;</p>
+            <ul class="social pull-right ">
+
+                <li>
+                    <a href="# "><i class="fa fa-facebook "></i></a>
+                </li>
+
+                <li>
+                    <a href="# "><i class="fa fa-twitter "></i></a>
+                </li>
+
+
+                <li>
+                    <a href="# "><i class="fa fa-pinterest "></i></a>
+                </li>
+
+                <li>
+                    <a href="# "><i class="fa fa-linkedin "></i></a>
+                </li>
+
+
+
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+
+        function openSearch() {
+            document.getElementById("search").style.height = "100px";
+        }
+
+        function closeSearch() {
+            document.getElementById("search").style.height = "0%";
+        }
+
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
